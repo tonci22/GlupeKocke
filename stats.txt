@@ -1,0 +1,46 @@
+
+			 "MAX BR KVADRATI: " << ukupan_br_kvadrati << " | "
+
+			 "%: " << postotak << " | "
+
+			 "VRIM: " << bonus.getElapsedTime().asMilliseconds() << " | "
+
+			 "VRIME ZA Tr ISP BONUSA: " << bonus_timer.getElapsedTime().asMilliseconds() << " | "
+
+			 "PPP: " << pogodjeni_protivnik_plavi << " | " << 
+
+			"PPZ: " << pogodjeni_protivnik_zuti << " | " 
+
+			"PPS: " << pogodjeni_protivnik_smedji<<"  ";
+
+Smedji_pogodjeni
+Zuti_pogodjeni
+Plavi_pogodjeni
+
+cout << "\r" << "-br kvadrati: " << brojac_kvadrati << " | "
+			<< "-br pogodjeni kvadrati: " << pogodjeni_protivnik_sve_boje << " | "
+			<< "nepogodjeni kvadrati: " << palo_kvadrati << " | "
+			<< "MAX BR KVADRATI: " << ukupan_br_kvadrati << " | "
+			<< "%: " << postotak << " | "
+			<< "VRIM: " << bonus.getElapsedTime().asMilliseconds() << " | "
+			<< "VRIME ZA Tr ISP BONUSA: " << bonus_timer.getElapsedTime().asMilliseconds() << " | "
+			<< "PPP: " << pogodjeni_protivnik_plavi << " | " << "PPZ: " << pogodjeni_protivnik_zuti << " | " << "PPS: " << pogodjeni_protivnik_smedji<<"  ";
+
+
+
+
+Clock za trajanje prikaza lvla
+text lvl i definicije
+novi trokut za odabir			
+nacrtat sve - linija 560
+
+RESET SVIH STATISTIKA {
+			ukupan_br_kvadrati
+			pogodjeni_protivnik_plavi
+			pogodjeni_protivnik_zuti
+			pogodjeni_protivnik_smedji
+			pogodjeni_protivnik_sve_boje
+			palo_kvadrati
+			postotak
+			score
+}
